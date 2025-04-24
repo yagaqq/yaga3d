@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💣 Babayaga Mayın Tarlası</title>
+  <link rel="stylesheet" href="./babacss.css"  >
+  
+  
+</head>
+<body>
+
+
+ <img src="./image/udindindun.jpg" id="udindin">
+
+ <img src="./image/sahur.jpg" id="sahur">
+
+ <img src="./image/bomb.jpg" id="bomb">
+
+  <div class="top-bar">
+    <div class="timer"> Zaman: <span id="time">0</span> sn</div>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Tema Değiştir</button>
+    <button onclick="changeDifficulty()">Zorluk: <span id="difficulty">Orta</span></button>
+  </div>
+
+  <div class="game" id="game"></div>
+
+
+
+  <!-- İstatistik Paneli -->
+  <div class="stats-panel">
+    <p><strong>İstatistikler:</strong></p>
+    <p class="stat">Mayın Sayısı: <span id="mine-count-stat">15</span></p>
+    <p class="stat">Bayrak Sayısı: <span id="flag-count-stat">0</span></p>
+    <p class="stat">Kalan Bayrak: <span id="remaining-flags-stat">15</span></p>
+    <p class="stat">Süre: <span id="game-time-stat">0</span> sn</p>
+  </div>
+
+  <div class="modal" id="modal">
+    <div id="message">🎉 Kazandınız!</div>
+    <button onclick="init()">Tekrar Oyna</button>
+  </div>
+
+  
+  
+  <div class="task-bar">
+    <p><strong>Görevler:</strong></p>
+    <div class="task task1" id="task1">Bütün bayrakları yerleştir
+      <span class="tooltip">Sağ tıklayarak bayrak yerleştirebilirsiniz.</span>
+    </div>
+    <div class="task task2" id="task2">Bütün mayınları bul
+      <span class="tooltip">Mayına basmamak için dikkatli olun!</span>
+    </div>
+    <p><strong>İpuçları:</strong></p>
+    <div class="task task3" id="task3">Mayınlar sağ tıklayarak bayraklar yerleştirilir. Farklı sayılar yakındaki mayınların sayısını gösterir.
+      <span class="tooltip">Mayına basmamak için dikkatli olun!</span>
+   
+
+      <body>
+
+      
+        <div class="modal" id="modal">
+          <div id="message">🎉 Kazandınız!</div>
+          <button onclick="init()">Tekrar Oyna</button>
+        </div>
+      </body>
+    
+  
+  <script src="./script.js"></script>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
